@@ -1,0 +1,113 @@
+*{
+    box-sizing: content-box;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.login{
+    background-color: white;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_logo{
+    margin-top: 20px;
+    margin-bottom:15px;
+    margin-right: auto;
+    margin-left: auto;
+    object-fit:cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_logo > img{
+    width:150px; 
+    height: 100px;
+
+}
+.login_container > h2, h6{
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+.login_container{
+    width: 300px;
+    height: 90%;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0px 0px 1px;
+    border: 0px solid lightgray;
+    padding: 10px;
+}
+
+.login_container > form > input{
+    height: 30px;
+    border-radius: 5px;
+    margin-top:none;
+    margin-bottom: 5px;
+    background-color: white;
+    outline: none;
+    width: 100%;
+    border: 1px solid gray;
+}
+.login_container > .passwod_line{
+    justify-content: space-between;
+    display:flex;
+
+}
+
+.login_container > p{
+    margin-top: 15px;
+    font-size: 12px;
+    justify-content: justify;
+}
+
+.continue_button{
+    display: flex;
+    border: none;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    outline: none;
+    width:100%;
+    background-color: rgb(245, 188, 82);
+
+}
+
+h4{
+    font-weight: lighter;
+    width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid lightgray; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+}
+
+h4 > span{
+    background-color: #fff;
+    padding: 0 10px
+}
+
+.register_button{
+    display: flex;
+    width: 250px;
+    border: none;
+    border: 1px solid;
+    justify-content: center;
+    outline: none;
+    align-items: center;
+    position:relative;
+}
+
+.policies{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.footer > p{
+    text-align: center;
+    font-size: 10px;
+    justify-content: center;
+}
